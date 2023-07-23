@@ -13,9 +13,7 @@ from datetime import datetime
 import time
 import random
 from telethon.tl.types import PeerUser, PeerChat, PeerChannel
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackQueryHandler
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 API_ID = 28883268
 API_HASH = '2850e9f51b84512f603f962ee64ad517'
